@@ -1,4 +1,8 @@
 
+# Create directory to hold data and db to keep our root dir clean
+mkdir data
+cd data
+
 # Download raw data. If folders already exist then error will be shown
 git clone https://github.com/openmundi/world.db.git
 git clone https://github.com/openfootball/stadiums.git
@@ -20,10 +24,6 @@ git clone https://github.com/openfootball/br-brazil.git
 git clone https://github.com/openfootball/north-america-champions-league.git
 git clone https://github.com/openfootball/copa-libertadores.git
 git clone https://github.com/openfootball/copa-sudamericana.git
-
-# Create directory to hold data and db
-mkdir data
-cd data
 
 # delete the existing sqlite db
 rm football.db

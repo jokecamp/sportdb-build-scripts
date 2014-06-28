@@ -2,6 +2,12 @@
 
 Below I will describe a set or procedures to generate your own database from scratch. I do not believe this is better than the [openfootball/build](https://github.com/openfootball/build) script but I believe it will help clarify any confusion for people that are unfamiliar with ruby and rake.
 
+## The Short Answer
+ - Clone this repository
+ - run the following script `sh downloadAndBuild.sh`
+
+
+## The Long Answer (how it works)
 Requirements:
  - git
  - Ruby and RubyGems
