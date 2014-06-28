@@ -5,6 +5,8 @@ Below I will describe a set or procedures to generate your own database from scr
 ## The Short Answer
  - Clone this repository
  - run the following script `sh downloadAndBuild.sh`
+ -- the sqlite db will be built at ``/temp/football.db`
+ -- to repeat/refresh db just delete temp folder and run script again.
 
 
 ## The Long Answer (how it works)

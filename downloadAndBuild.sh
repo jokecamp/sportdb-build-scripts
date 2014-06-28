@@ -1,7 +1,7 @@
 
 # Create directory to hold data and db to keep our root dir clean
-mkdir data
-cd data
+mkdir temp
+cd temp
 
 # Download raw data. If folders already exist then error will be shown
 git clone https://github.com/openmundi/world.db.git
